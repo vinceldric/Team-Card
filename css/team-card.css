@@ -1,0 +1,62 @@
+/* main form */
+.wrapper {
+  margin: auto;
+  max-width: 40ch;
+  padding: 1.5em;
+
+  background-color: lightgray;
+  background-image: url("https://github.com/sait-wbdv/assessments/blob/master/cpnt260/assignment-2/images/river.jpg?raw=true");
+  background-repeat: no-repeat;
+  background-size: 50ch 20ch;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* header image */
+.header {
+  margin-top: 70px;
+  border: 7px solid lightgray;
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* header text & body text arrangement */
+h2 {
+  text-align: center;
+  font-family: 'Montserrat', Helvetica, sans-serif;
+}
+
+p {
+  margin-top: 0;
+  text-align: center;
+  font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+/* footer icons behavior */
+i:hover {
+  color: blue;
+}
+i:active {
+  color: black;
+}
+
+/* footer arrangement */
+a {
+  margin: 0.7em;
+  padding: 0.7em;
+  color: black;
+}
+
+footer {
+  border-top: 1px solid gray;
+  padding-top: 1em;
+}
